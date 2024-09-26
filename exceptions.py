@@ -1,0 +1,4 @@
+class ParserGfxHubBaseException(Exception):pass
+
+class AccountIsFreeException(ParserGfxHubBaseException):pass
+class DailyDownloadLimitExpiredException(ParserGfxHubBaseException):pass
